@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>haai</title>
+
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+    </style>
+</head>
+<body>
+
+    <header class="fixed top-0 left-0 right-0 bg-white/20 backdrop-blur-2xl">
+        <nav class="container mx-auto max-w-5xl">
+            <div class="grid grid-cols-1 lg:grid-flow-col lg:auto-cols-max content-center">
+                <div>
+                    <div class="h-16 lg:h-24 px-4 lg:px-0 flex justify-between items-center">
+                        <div>
+                            <a href="#">
+                                <img src="./img/logo.svg" alt="logo" class="h-7 lg:h-12">
+                            </a>
+                        </div>
+                        <div class="lg:hidden justify-self-end">
+                            <img src="./img/icon-gray/menu-2.svg" alt="icon" class="w-7" id="js-menu-toggle">
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden lg:block lg:self-center" id="js-menu">
+                    <div class="bg-white lg:bg-transparent drop-shadow-2xl lg:drop-shadow-none lg:flex justify-between col-span-2">
+                        <ul class="lg:flex items-center lg:mr-40">
+                            <li>
+                                <a href="#" class="px-4 py-3.5 inline-block w-full text-sm lg:text-base text-gray-700" onclick="scrollToSection('sec-1'); return false;">Made For</a>
+                                <hr class="border-gray-100 ml-4 lg:hidden">
+                            </li>
+                            <li>
+                                <a href="#" class="px-4 py-3.5 inline-block w-full text-sm lg:text-base text-gray-700" onclick="scrollToSection('sec-2'); return false;">Features & Pricing</a>
+                                <hr class="border-gray-100 ml-4 lg:hidden">
+                            </li>
+                            <li>
+                                <a href="#" class="px-4 py-3.5 inline-block w-full text-sm lg:text-base text-gray-700" onclick="scrollToSection('sec-3'); return false;">Questions?</a>
+                                <hr class="border-gray-100 ml-4 lg:hidden">
+                            </li>
+                        </ul>
+                        <div class="flex justify-end p-4 lg:px-0">
+                            <div>
+                                <button type="button" class="btn-tertiary">Login</button>
+                            </div>
+                            <div class="ml-4">
+                                <button type="button" class="btn-primary">Register Now</button>
+                            </div>
+                        </div>
+                    </div>       
+                </div>                
+            </div>            
+        </nav>
+    </header>
+
+    <!-- background -->
+    <div class="lg:hidden bg-[url('img/bg-1a-m.svg')] bg-contain bg-no-repeat w-full h-full absolute -z-10 top-0"></div>
+    <div class="lg:hidden bg-[url('img/bg-1b-m.svg')] bg-contain bg-no-repeat w-full h-full absolute -z-10 top-[300px]"></div>
+    <div class="hidden lg:block bg-[url('img/bg-1.svg')] bg-no-repeat bg-[center_-190px] w-full h-full absolute -z-10 top-0"></div>
+    <div class="hidden lg:block bg-[url('img/bg-2.svg')] bg-no-repeat bg-center w-full h-full absolute -z-10 top-[1000px]"></div>
+    <div class="hidden lg:block bg-[url('img/bg-3.svg')] bg-no-repeat bg-center w-full h-full absolute -z-10 top-[1620px]"></div>
+
+    <main class="mt-16 lg:mt-24 pt-10 lg:pt-6">        
+        <section class="px-4 lg:px-0 lg:container lg:mx-auto lg:max-w-5xl grid lg:grid-cols-2">
+            <div class="self-center">
+                <div class="lg:w-[480px]">
+                    <p class="text-xs text-blue-700 uppercase font-semibold tracking-widest pb-4">Beyond The Link</p>
+                    <p class="text-5xl lg:text-6xl text-gray-700 font-extrabold pb-8 w-80 lg:w-full">All Your Links in One Place<span class="text-blue-700">.</span></p>
+                    <p class="text-sm lg:text-base text-gray-500 pb-8">Connect with your audience effortlessly. Showcase all your links in a single, customizable landing page for easy sharing and interaction.</p>
+                    <button type="button" class="btn-primary">
+                        Join for Free - Let's Begin <img src="./img/icon-white/arrow-up-right.svg" alt="icon" class="pl-2 inline">
+                    </button>
+                </div>
+            </div>
+            <div>
+                <div class="pt-8 lg:pt-0">
+                    <img src="./img/left.png" alt="banner">
+                </div>
+            </div>
+        </section>
+
+        <section class="grid gap-4 lg:grid-cols-3 px-4 lg:px-0 mt-16 lg:mt-32 lg:container lg:mx-auto lg:max-w-5xl">
+            <div class="bg-white shadow-[inset_0_0_0_1px] shadow-gray-100 rounded-2xl px-4 py-6 text-center">
+                <img src="./img/usp-1.svg" alt="icon" class="inline mb-4">
+                <p class="text-base lg:text-xl font-bold text-gray-700 mb-2">Easy to Use</p>
+                <p class="text-sm lg:text-base text-gray-500">Simplify your workflow with our user-friendly interface, saving you time and frustration.</p>
+            </div>
+            <div class="bg-white shadow-[inset_0_0_0_1px] shadow-gray-100 rounded-2xl px-4 py-6 text-center lg:usp">
+                <img src="./img/usp-2.svg" alt="icon" class="inline mb-4">
+                <p class="text-base lg:text-xl font-bold text-gray-700 mb-2">Affordable Price</p>
+                <p class="text-sm lg:text-base text-gray-500">Say goodbye to overpriced, and say “haai” to our affordable yet high-quality offerings.</p>
+            </div>
+            <div class="bg-white shadow-[inset_0_0_0_1px] shadow-gray-100 rounded-2xl px-4 py-6 text-center">
+                <img src="./img/usp-3.svg" alt="icon" class="inline mb-4">
+                <p class="text-base lg:text-xl font-bold text-gray-700 mb-2">Create Your Own</p>
+                <p class="text-sm lg:text-base text-gray-500">Customize and personalize your own unique masterpiece, bring your ideas to reality.</p>
+            </div>
+        </section>
+
+        <section class="px-4 lg:px-0 mt-16 lg:mt-32 lg:container lg:mx-auto lg:max-w-5xl scroll-m-32" id="sec-1">
+            <div class="mb-8 lg:mb-16">
+                <p class="text-5xl lg:text-6xl text-gray-700 font-extrabold">Made For<span class="text-blue-700">.</span></p>
+            </div>
+            <div class="grid grid-flow-row lg:grid-cols-3 gap-4 lg:gap-8">
+                <div class="lg:col-span-1 lg:w-80">
+                    <div class="px-8 py-6 lg:pb-0 lg:pt-8 lg:h-80 rounded-[32px] sol-1">
+                        <div class="mb-2">
+                            <img src="img/sol-1.png" alt="icon" class="w-12 inline">
+                        </div>
+                        <p class="text-base lg:text-xl font-bold text-gray-900 mb-4">Organization</p>
+                        <p class="text-sm lg:text-base text-gray-700">You can use our platform to connect different aspects of  work in one link. Promote mission, campaigns, and values, attracting attention and support from the public.</p>
+                    </div>
+                </div>
+                <div class="lg:col-span-2 lg:w-[672px]">
+                    <div class="bg-white px-8 lg:px-16 py-6 lg:py-0 lg:h-80 rounded-[32px] sol-netral">
+                        <div class="grid lg:grid-flow-col gap-6">
+                            <div>
+                                <img src="img/sol-2.png" alt="icon" class="w-[264px] inline">
+                            </div>
+                            <div class="lg:w-64 lg:self-center">                        
+                                <p class="text-base lg:text-xl font-bold text-gray-700 mb-4">Creators</p>
+                                <p class="text-sm lg:text-base text-gray-500">Our platform provides an efficient way to share their content across multiple platforms, such as YouTube, Instagram, TikTok, and more, through a single link. It helps to reach a wider audience and build a larger fan base.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:col-span-2 lg:w-[672px]">
+                    <div class="bg-white px-8 lg:px-16 py-6 lg:py-0 lg:h-80 rounded-[32px] sol-netral">
+                        <div class="grid lg:grid-flow-col gap-6">
+                            <div>
+                                <img src="img/sol-3.png" alt="icon" class="w-[264px] inline">
+                            </div>
+                            <div class="lg:w-64 lg:self-center">                        
+                                <p class="text-base lg:text-xl font-bold text-gray-700 mb-4">Brand Owner</p>
+                                <p class="text-sm lg:text-base text-gray-500">We helps brand owners promote and manage their content through a single, accessible link. They can showcase websites, online stores, social media, and other promotional materials, expanding their brand presence in the digital world.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:col-span-1 lg:w-80">
+                    <div class="px-8 py-6 lg:pb-0 lg:pt-8 lg:h-80 rounded-[32px] sol-4">
+                        <div class="mb-2">
+                            <img src="img/sol-4.png" alt="icon" class="w-12 inline">
+                        </div>
+                        <p class="text-base lg:text-xl font-bold text-gray-900 mb-4">And More...</p>
+                        <p class="text-sm lg:text-base text-gray-700">Our platform caters to various groups who want to centralize and share their resources through a single link. It helps them enhance their online visibility and accessibility.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="px-4 lg:px-0 mt-16 lg:mt-32 lg:container lg:mx-auto lg:max-w-5xl scroll-m-32" id="sec-2">
+            <div class="mb-8 lg:mb-16">
+                <p class="text-5xl lg:text-6xl text-gray-700 font-extrabold">Features & Pricing<span class="text-blue-700">.</span></p>
+            </div>
+            <div class="hidden lg:flex">
+                <div class="pt-8 pl-8 border-r border-r-slate-200 rounded-tl-[32px] bg-slate-50 grow">
+                    <div class="w-60 mb-2 ml-2">
+                        <p class="text-sm text-gray-700">Enjoy exclusive discounts and maximize your value with long-term commitment.</p>
+                    </div>
+                    <div class="subscribe">
+                        <input type="radio" id="monthly" name="subscribe" value="monthly" class="hidden" checked>
+                        <label for="monthly">Monthly</label>                        
+                        <input type="radio" id="annually" name="subscribe" value="annually" class="hidden">
+                        <label for="annually">Annually</label>
+                    </div>
+                </div>
+                <div class="w-40 pl-6 pt-6 pb-6 bg-slate-50">
+                    <p class="text-xl font-bold text-gray-700">Free</p>
+                    <p class="text-4xl font-bold text-gray-700">0</p>
+                    <p class="text-sm text-gray-500">USD/month</p>
+                    <div class="mt-4">
+                        <button type="button" class="btn-secondary">Choose</button>
+                    </div>
+                </div>
+                <div class="w-40 pl-6 pt-6 bg-blue-700">
+                    <p class="text-xl font-bold text-gray-50">Starter</p>
+                    <p class="text-4xl font-bold text-gray-50">1</p>
+                    <p class="text-sm text-gray-300">USD/month</p>
+                    <div class="mt-4">
+                        <button type="button" class="border border-yellow-300 bg-yellow-300 box-border font-medium text-yellow-900 px-6 py-2 rounded-full">Choose</button>
+                    </div>
+                </div>
+                <div class="w-40 pl-6 pt-6 bg-slate-50">
+                    <p class="text-xl font-bold text-gray-700">Premium</p>
+                    <p class="text-4xl font-bold text-gray-700">2</p>
+                    <p class="text-sm text-gray-500">USD/month</p>
+                    <div class="mt-4">
+                        <button type="button" class="btn-secondary">Choose</button>
+                    </div>
+                </div>
+                <div class="w-40 pl-6 pt-6 rounded-tr-[32px] bg-slate-50">
+                    <p class="text-xl font-bold text-gray-700">Enterprise</p>
+                    <p class="text-4xl font-bold text-gray-700">4</p>
+                    <p class="text-sm text-gray-500">USD/month</p>
+                    <div class="mt-4">
+                        <button type="button" class="btn-secondary">Choose</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="list-features"></div>
+        </section>
+
+        <section class="px-4 lg:px-0 mt-16 lg:mt-32 lg:container lg:mx-auto lg:max-w-5xl scroll-m-32" id="sec-3">
+            <div class="mb-8 lg:mb-16">
+                <p class="text-5xl lg:text-6xl text-gray-700 font-extrabold">Questions<span class="text-blue-700">?</span></p>
+            </div>
+            <div class="grid grid-cols-none lg:grid-cols-12 gap-4 lg:gap-8">
+                <div class="lg:col-span-4">
+                    <img src="./img/faq-1.png" alt="banner">                    
+                </div>
+                <div class="lg:col-span-8">
+                    <div class="grid grid-flow-row gap-4" id="list-faq"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center py-20 lg:px-20 mt-20">
+        <div class="flex justify-center">
+            <p class="text-xs font-light text-gray-500">
+                Made with <img src="img/foot-1.png" alt="icon" width="16px" class="inline mx-1"> © 2023 ·&nbsp;<a href="mailto:help@haai.bio">help@haai.bio</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+    <script src="./app.js"></script>
+
+    <!-- faq -->
+    <script id="faq" type="text/x-handlebars-template">
+        {{#each listOfFaq}}
+            <details class="accordion" {{#if @first}} open {{/if}}>
+                <summary>
+                    <div>
+                        <p>{{title}}</p>
+                        <div>                                
+                            <img src="./img/icon-gray/chevron-down.svg" alt="icon" width="28px" height="28px">
+                        </div>
+                    </div>
+                </summary>
+                <div>
+                    <p>{{desc}}</p>
+                </div>
+            </details>
+        {{/each}}
+    </script>
+
+    <!-- features -->
+    <script id="features" type="text/x-handlebars-template">
+        {{#each listOfFeatures}}
+        <div class="bg-stone-50 p-3">
+            <p class="text-stone-700 text-base font-semibold">{{category}}</p>
+        </div>
+            {{#each features}}
+            <div class="flex flex-wrap min-h-[64px] py-5 box-border border-b border-slate-100 bg-white">
+                <div class="w-full lg:basis-96 mb-4 lg:mb-0">
+                    <details>
+                        <summary class="cursor-pointer">
+                            <div class="flex">
+                                <div class="px-3">                                
+                                    <img src="img/icon-gray/chevron-down.svg" alt="icon" width="24px" height="24px">
+                                </div>
+                                <p class="text-base font-semibold text-gray-700">{{name}}</p>
+                            </div>
+                        </summary>
+                        <div class="ml-12 mt-3.5">
+                            <p class="text-sm font-light text-gray-500"></p>
+                        </div>
+                    </details>
+                </div>
+                <div class="w-1/4 lg:w-40 text-center"> 
+                    <div class="lg:hidden mb-2 text-sm text-gray-500">Free</div>
+                    <div class="text-sm lg:text-base text-gray-700">{{{free}}}</div>
+                </div>
+                <div class="w-1/4 lg:w-40 text-center text-base text-gray-700">
+                    <div class="lg:hidden mb-2 text-sm text-gray-500">Starter</div>
+                    <div class="text-sm lg:text-base text-gray-700">{{{starter}}}</div>
+                </div>
+                <div class="w-1/4 lg:w-40 text-center text-base text-gray-700">
+                    <div class="lg:hidden mb-2 text-sm text-gray-500">Premium</div>
+                    <div class="text-sm lg:text-base text-gray-700">{{{premium}}}</div>
+                </div>
+                <div class="w-1/4 lg:w-40 text-center text-base text-gray-700">
+                    <div class="lg:hidden mb-2 text-sm text-gray-500">Enterprise</div>
+                    <div class="text-sm lg:text-base text-gray-700">{{{enterprise}}}</div>
+                </div>
+            </div>
+            {{/each}}
+        {{/each}}
+    </script>
+</body>
+</html>

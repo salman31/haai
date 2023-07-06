@@ -1,0 +1,299 @@
+{
+    "listOfFaq": [
+        {
+            "title": "What is haai.bio?",
+            "desc": "HAAI.BIO is a link in bio developer that allows you to create a personalized and customizable landing page for your social media profiles. It helps you showcase multiple links, such as your website, blog, social media accounts, and more, all in one place."
+        },
+        {
+            "title": "How does haai.bio work?",
+            "desc": "HAAI.BIO works by providing you with a simple and user-friendly platform to create your personalized link in bio page. You can easily add and customize links, change the design and layout, and manage your content through a centralized dashboard."
+        },
+        {
+            "title": "What features does haai.bio offer?",
+            "desc": "HAAI.BIO offers a range of features to enhance your link in bio experience. Some of the key features include the ability to add unlimited links, social media integration, customization options for design and layout, analytics to track link clicks, and the option to add promotional banners or announcements."
+        },
+        {
+            "title": "What types of links can I add to my link in bio page?",
+            "desc": "You can add a wide variety of links to your HAAI.BIO page. This includes links to your social media profiles (such as Instagram, Facebook, Twitter), website links, blog articles, online stores, YouTube videos, podcasts, and any other content you want to share with your audience."
+        },
+        {
+            "title": "How do i add links to my haai.bio page?",
+            "desc": "Adding links to your HAAI.BIO page is easy. Once you're logged into your account, you can navigate to the dashboard and click on the \"Add Link\" button. From there, you can enter the title, URL, and choose an icon for your link. You can also rearrange the order of your links for optimal display."
+        },
+        {
+            "title": "Can i customize the design of my link in bio page?",
+            "desc": "Yes, with HAAI.BIO, you have full control over the design and layout of your link in bio page. You can choose from pre-designed templates, customize colors, fonts, and backgrounds, and add your own branding elements to create a unique and visually appealing landing page."
+        },
+        {
+            "title": "Can i use haai.bio for multiple social media accounts?",
+            "desc": "Absolutely! HAAI.BIO supports multiple social media accounts, allowing you to create separate link in bio pages for each platform. Whether you have a personal account, business account, or manage multiple brands, you can easily manage and customize your link in bio pages for each account."
+        },
+        {
+            "title": "Can I track the performance of my links?",
+            "desc": "Yes, HAAI.BIO provides comprehensive analytics to track the performance of your links. You can measure clicks, engagement, and other valuable metrics to gain insights into how your audience is interacting with your content."
+        },
+        {
+            "title": "What happens if a user clicks on a link that I've removed or modified?",
+            "desc": "When a user clicks on a link that has been removed or modified, they will typically be redirected to a default"
+        },
+        {
+            "title": "What payment methods do you accept?",
+            "desc": "We accept payments through Bank Transfer, Credit and Debit Cards, Digital Wallets (Google Pay, Apple Pay) and E-Wallets (OVO, GoPay). If your preferred payment method is not available, please contact us at hello@haai.bio, and we will explore the possibility of implementing it"
+        },
+        {
+            "title": "What if I need help or have additional questions?",
+            "desc": "If you need any assistance or have further questions, please don't hesitate to reach out to our support team at hello@haai.bio. We are here to help and ensure you have a smooth experience using HAAI.BIO."
+        }
+    ],
+    "listOfFeatures": [
+        {
+            "category": "Biolink",
+            "features": [
+                {
+                    "name": "Pages",
+                    "free": "1",
+                    "starter": "1",
+                    "premium": "30",
+                    "enterprise": "100"
+                },
+                {
+                    "name": "Blocks",
+                    "free": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
+                    "starter": "Unlimited",
+                    "premium": "Unlimited",
+                    "enterprise": "Unlimited"
+                }
+            ]
+        },
+        {
+            "category": "Link Management",
+            "features": [
+                {
+                    "name": "Shortened Link",
+                    "free": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
+                    "starter": "5",
+                    "premium": "15",
+                    "enterprise": "100"
+                },
+                {
+                    "name": "File Link",
+                    "free": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
+                    "starter": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
+                    "premium": "3",
+                    "enterprise": "100"
+                },
+                {
+                    "name": "Vcard Links",
+                    "free": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
+                    "starter": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
+                    "premium": "3",
+                    "enterprise": "50"
+                },
+                {
+                    "name": "Event Links",
+                    "free": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
+                    "starter": "2",
+                    "premium": "5",
+                    "enterprise": "300"
+                },
+                {
+                    "name": "QR Codes",
+                    "free": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
+                    "starter": "10",
+                    "premium": "10",
+                    "enterprise": "50"
+                },
+                {
+                    "name": "QR - active period",
+                    "free": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
+                    "starter": "1 years",
+                    "premium": "1 years",
+                    "enterprise": "Lifetime"
+                }
+            ]
+        },
+        {
+            "category": "Customization",
+            "features": [
+                {
+                    "name": "Custom Backgrounds",
+                    "free": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
+                    "starter": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
+                    "premium": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
+                    "enterprise": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>"
+                },
+                {
+                    "name": "Custom Branding",
+                    "free": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
+                    "starter": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
+                    "premium": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
+                    "enterprise": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>"
+                },
+                {
+                    "name": "Custom Colors",
+                    "free": "Limited",
+                    "starter": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
+                    "premium": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
+                    "enterprise": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>"
+                },
+                {
+                    "name": "Custom CSS",
+                    "free": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
+                    "starter": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
+                    "premium": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
+                    "enterprise": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>"
+                },
+                {
+                    "name": "Custom JS",
+                    "free": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
+                    "starter": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
+                    "premium": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
+                    "enterprise": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>"
+                },
+                {
+                    "name": "Extra Fonts",
+                    "free": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
+                    "starter": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
+                    "premium": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
+                    "enterprise": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>"
+                }
+            ]
+        },
+        {
+            "category": "Analytics and Tracking",
+            "features": [
+                {
+                    "name": "30 days statistics retention",
+                    "free": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
+                    "starter": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
+                    "premium": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
+                    "enterprise": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>"
+                },
+                {
+                    "name": "Indepth Statistics",
+                    "free": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
+                    "starter": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
+                    "premium": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
+                    "enterprise": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>"
+                },
+                {
+                    "name": "Links scheduling & limiter",
+                    "free": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
+                    "starter": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
+                    "premium": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
+                    "enterprise": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>"
+                },
+                {
+                    "name": "UTM Parameters",
+                    "free": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
+                    "starter": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
+                    "premium": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
+                    "enterprise": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>"
+                }
+            ]
+        },
+        {
+            "category": "Advanced Features",
+            "features": [
+                {
+                    "name": "Custom Domains",
+                    "free": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
+                    "starter": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
+                    "premium": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
+                    "enterprise": "5"
+                },
+                {
+                    "name": "Project",
+                    "free": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
+                    "starter": "3",
+                    "premium": "5",
+                    "enterprise": "10"
+                },
+                {
+                    "name": "Pixels",
+                    "free": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
+                    "starter": "3",
+                    "premium": "5",
+                    "enterprise": "10"
+                },
+                {
+                    "name": "Additional Global Domains",
+                    "free": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
+                    "starter": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
+                    "premium": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
+                    "enterprise": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>"
+                },
+                {
+                    "name": "Custom Back-Half",
+                    "free": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
+                    "starter": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
+                    "premium": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
+                    "enterprise": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>"
+                },
+                {
+                    "name": "Deep Linking",
+                    "free": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
+                    "starter": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
+                    "premium": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
+                    "enterprise": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>"
+                },
+                {
+                    "name": "Removable Branding",
+                    "free": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
+                    "starter": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
+                    "premium": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
+                    "enterprise": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>"
+                },
+                {
+                    "name": "Dofollow Links",
+                    "free": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
+                    "starter": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
+                    "premium": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
+                    "enterprise": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>"
+                },
+                {
+                    "name": "Leap Link",
+                    "free": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
+                    "starter": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
+                    "premium": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
+                    "enterprise": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>"
+                },
+                {
+                    "name": "SEO Features",
+                    "free": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
+                    "starter": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
+                    "premium": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
+                    "enterprise": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>"
+                },
+                {
+                    "name": "Password Protection",
+                    "free": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
+                    "starter": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
+                    "premium": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
+                    "enterprise": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>"
+                },
+                {
+                    "name": "Sensitive Content",
+                    "free": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
+                    "starter": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
+                    "premium": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
+                    "enterprise": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>"
+                },
+                {
+                    "name": "Ad-Free",
+                    "free": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
+                    "starter": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
+                    "premium": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
+                    "enterprise": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>"
+                },
+                {
+                    "name": "API Access",
+                    "free": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
+                    "starter": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
+                    "premium": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
+                    "enterprise": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>"
+                }              
+            ]
+        }
+    ]
+}
