@@ -9,12 +9,75 @@
     <link rel="stylesheet" href="style.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+        html {
+            background: url(./img/bg-logres-m.svg);
+            background-position: bottom 0 center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            min-height: 100%;
+            position: relative;
+        }
+        @media (min-width: 1024px) {
+            html {
+                background: url(./img/bg-logres.svg);
+                background-position: bottom -480px center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                min-height: 100%;
+                position: relative;
+            }
+        }
     </style>
 </head>
 <body>
 
-    
+    <header class="pt-6 lg:pt-10 pl-4 lg:pl-0">
+        <div class="mx-auto max-w-5xl">
+            <a href="./" class="inline-block">
+                <img src="./img/logo.svg" alt="logo">
+            </a>
+        </div>
+    </header>
 
+    <main>
+        <section class="mx-auto max-w-[328px] mt-8 lg:mt-0">
+            <form action="#">
+                <p class="text-xl font-bold text-gray-700">Create your account</p>
+                <div class="pt-4">
+                    <p class="text-base text-gray-500">Choose your haai username. You can always change it later.</p>
+                </div>
+
+                <div class="mt-8 grid gap-4">
+                    <input type="text" placeholder="Name" class="input-primary">
+                    <input type="email" placeholder="Email" class="input-primary">
+                    <input type="password" placeholder="Password" class="input-primary">
+                </div>
+                <div class="mt-10">
+                    <p class="text-xs text-gray-500">
+                        By clicking <span class="font-bold">Register</span>, you agree to haai 
+                        <a href="#" class="underline">Terms and Conditions</a> and confirm you have read our 
+                        <a href="#" class="underline">Privacy Notice.</a>
+                    </p>
+                </div>
+                <div class="mt-8 grid gap-4">
+                    <button type="button" class="btn-primary">Register</button>
+                    <button type="button" class="btn-secondary">
+                        <div class="flex justify-center">
+                            <div class="mr-2">
+                                <img src="./img/icons8-google-48.png" alt="icon" class="w-6">
+                            </div>
+                            <div>Continue with Google</div>
+                        </div>                        
+                    </button>
+                    <p class="text-sm text-center">
+                        <span class="text-gray-700">Already have an account?</span>
+                        <a href="#" class="text-sky-600">Log In</a>
+                    </p>
+                </div>
+            </form>
+        </section>
+    </main>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
     <script src="./app.js"></script>
 </body>

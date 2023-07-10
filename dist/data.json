@@ -53,12 +53,12 @@
                     "name": "Pages",
                     "free": "1",
                     "starter": "1",
-                    "premium": "30",
-                    "enterprise": "100"
+                    "premium": "3",
+                    "enterprise": "30"
                 },
                 {
                     "name": "Blocks",
-                    "free": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
+                    "free": "5",
                     "starter": "Unlimited",
                     "premium": "Unlimited",
                     "enterprise": "Unlimited"
@@ -73,28 +73,28 @@
                     "free": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
                     "starter": "5",
                     "premium": "15",
-                    "enterprise": "100"
+                    "enterprise": "25"
                 },
                 {
                     "name": "File Link",
                     "free": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
                     "starter": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
                     "premium": "3",
-                    "enterprise": "100"
+                    "enterprise": "30"
                 },
                 {
                     "name": "Vcard Links",
                     "free": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
                     "starter": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
                     "premium": "3",
-                    "enterprise": "50"
+                    "enterprise": "15"
                 },
                 {
                     "name": "Event Links",
                     "free": "<img src='img/circle-check-filled.svg' alt='icon' class='inline'>",
                     "starter": "2",
                     "premium": "5",
-                    "enterprise": "300"
+                    "enterprise": "10"
                 },
                 {
                     "name": "QR Codes",
@@ -200,7 +200,7 @@
                     "free": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
                     "starter": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
                     "premium": "<img src='img/circle-x-filled.svg' alt='icon' class='inline'>",
-                    "enterprise": "5"
+                    "enterprise": "1"
                 },
                 {
                     "name": "Project",
