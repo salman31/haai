@@ -426,6 +426,11 @@ html {
   font-family: 'Inter', sans-serif;
 }
 
+[type=checkbox]:checked {
+  background-image: url('./img/check.svg');
+  background-repeat: no-repeat;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -604,29 +609,63 @@ html {
 /* input */
 
 .input-primary {
-  width: 100%;
+  display: flex;
   border-radius: 0.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  --tw-shadow: inset 0 0 0 1px #D1D5DB;
+  --tw-shadow-colored: inset 0 0 0 1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.input-primary:focus-within {
+  --tw-shadow: inset 0 0 0 2px #1d4ed8;
+  --tw-shadow-colored: inset 0 0 0 2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.input-primary > input {
+  width: 100%;
+  background-color: transparent;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 0.875rem;
   padding-bottom: 0.875rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
-  --tw-shadow: inset 0 0 0 1px #D1D5DB;
-  --tw-shadow-colored: inset 0 0 0 1px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-  outline-width: 2px;
-  outline-color: #1d4ed8;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 
-.input-primary::-moz-placeholder {
+.input-primary > input::-moz-placeholder {
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
-.input-primary::placeholder {
+.input-primary > input::placeholder {
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+.input-primary > div > img {
+  min-height: 20px;
+  min-width: 20px;
+  cursor: pointer;
+}
+
+.input-primary > div {
+  margin-top: 0.875rem;
+  margin-bottom: 0.875rem;
+  display: inline-block;
+  width: 1.25rem;
+}
+
+.input-primary > div:first-child {
+  margin-left: 1rem;
+}
+
+.input-primary > div:last-child {
+  margin-right: 1rem;
 }
 
 /* accordion */
@@ -764,6 +803,10 @@ details[open] img {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.visible {
+  visibility: visible;
+}
+
 .fixed {
   position: fixed;
 }
@@ -774,10 +817,6 @@ details[open] img {
 
 .relative {
   position: relative;
-}
-
-.bottom-0 {
-  bottom: 0px;
 }
 
 .left-0 {
@@ -840,6 +879,10 @@ details[open] img {
 
 .ml-2 {
   margin-left: 0.5rem;
+}
+
+.ml-3 {
+  margin-left: 0.75rem;
 }
 
 .ml-4 {
@@ -906,6 +949,10 @@ details[open] img {
   height: 4rem;
 }
 
+.h-4 {
+  height: 1rem;
+}
+
 .h-7 {
   height: 1.75rem;
 }
@@ -924,6 +971,10 @@ details[open] img {
 
 .w-12 {
   width: 3rem;
+}
+
+.w-4 {
+  width: 1rem;
 }
 
 .w-40 {
@@ -972,6 +1023,12 @@ details[open] img {
 
 .scroll-m-32 {
   scroll-margin: 8rem;
+}
+
+.appearance-none {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 
 .grid-flow-row {
@@ -1026,6 +1083,10 @@ details[open] img {
   justify-self: end;
 }
 
+.rounded {
+  border-radius: 0.25rem;
+}
+
 .rounded-2xl {
   border-radius: 1rem;
 }
@@ -1061,6 +1122,11 @@ details[open] img {
 .border-gray-100 {
   --tw-border-opacity: 1;
   border-color: rgb(243 244 246 / var(--tw-border-opacity));
+}
+
+.border-gray-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(209 213 219 / var(--tw-border-opacity));
 }
 
 .border-slate-100 {
@@ -1125,10 +1191,6 @@ details[open] img {
 
 .bg-\[url\(\'img\/bg-3\.svg\'\)\] {
   background-image: url('img/bg-3.svg');
-}
-
-.bg-\[url\(\'img\/bg-logres\.svg\'\)\] {
-  background-image: url('img/bg-logres.svg');
 }
 
 .bg-contain {
@@ -1425,7 +1487,19 @@ details[open] img {
             0px 10.2412px 5.32008px rgba(29, 78, 216, 0.0161557), 
             0px 4.26158px 2.21381px rgba(29, 78, 216, 0.0112458);
   }
+}
 
+.checked\:border-blue-700:checked {
+  --tw-border-opacity: 1;
+  border-color: rgb(29 78 216 / var(--tw-border-opacity));
+}
+
+.checked\:bg-blue-700:checked {
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
+}
+
+@media (min-width: 1024px) {
   .lg\:col-span-1 {
     grid-column: span 1 / span 1;
   }

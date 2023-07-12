@@ -47,3 +47,19 @@ function scrollToSection(sectionId) {
     const section = document.getElementById(sectionId);
     section.scrollIntoView({ behavior: 'smooth' });
 }
+
+// password visible
+function togglePasswordVisibility() {
+    var passwordInput = document.getElementById("passwordInput");
+    var eyeIcon = document.getElementById("eyeIcon");
+    var eyeIconOff = document.getElementById("eyeIconOff");
+
+    eyeIcon.classList.toggle('hidden');
+    eyeIconOff.classList.toggle('hidden');
+
+    if (passwordInput.type === "password") {
+        passwordInput.type = "text";
+    } else {
+        passwordInput.type = "password";
+    }
+}
