@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>haai</title>
+
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+    </style>
+</head>
+<body>
+
+    <header class="fixed top-0 left-0 right-0 bg-white/20 backdrop-blur-2xl">
+        <nav class="container mx-auto max-w-5xl">
+            <div class="grid grid-cols-1 lg:grid-flow-col lg:auto-cols-max content-center">
+                <div>
+                    <div class="h-16 lg:h-24 px-4 lg:px-0 flex justify-between items-center">
+                        <div>
+                            <a href="./">
+                                <img src="./img/logo.svg" alt="logo" class="h-7 lg:h-12">
+                            </a>
+                        </div>
+                        <div class="lg:hidden justify-self-end">
+                            <img src="./img/icon-gray/menu-2.svg" alt="icon" class="w-7" id="js-menu-toggle">
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden lg:block lg:self-center" id="js-menu">
+                    <div class="bg-white lg:bg-transparent drop-shadow-2xl lg:drop-shadow-none lg:flex justify-between col-span-2">
+                        <ul class="lg:flex items-center lg:mr-40">
+                            <li>
+                                <a href="#" class="px-4 py-3.5 inline-block w-full text-sm lg:text-base text-gray-700" onclick="scrollToSection('sec-1'); return false;">Made For</a>
+                                <hr class="border-gray-100 ml-4 lg:hidden">
+                            </li>
+                            <li>
+                                <a href="#" class="px-4 py-3.5 inline-block w-full text-sm lg:text-base text-gray-700" onclick="scrollToSection('sec-2'); return false;">Features & Pricing</a>
+                                <hr class="border-gray-100 ml-4 lg:hidden">
+                            </li>
+                            <li>
+                                <a href="#" class="px-4 py-3.5 inline-block w-full text-sm lg:text-base text-gray-700" onclick="scrollToSection('sec-3'); return false;">Questions?</a>
+                                <hr class="border-gray-100 ml-4 lg:hidden">
+                            </li>
+                        </ul>
+                        <div class="flex justify-end p-4 lg:px-0">
+                            <div>
+                                <button type="button" class="btn-tertiary" onclick="document.location='./login.html'">Login</button>
+                            </div>
+                            <div class="ml-4">
+                                <button type="button" class="btn-primary" onclick="document.location='./register.html'">Register Now</button>
+                            </div>
+                        </div>
+                    </div>       
+                </div>                
+            </div>            
+        </nav>
+    </header>
+
+    <main class="mt-16 lg:mt-24 pt-10 lg:pt-6">        
+        <section class="container mx-auto max-w-3xl px-4 lg:px-0">
+            <p class="text-4xl font-bold text-gray-700">Terms and Conditions</p>
+            <ol class="text-gray-700 mt-8 list-decimal ml-6">
+                <li>
+                    <div class="mb-2">
+                        <p class="text-xl font-bold">Acceptance of Terms</p>
+                    </div>
+                    <p>By accessing and using HAAI.BIO, you agree to comply with and be bound by these Terms and Conditions. If you do not agree with any part of these terms, please refrain from using our services.</p>
+                </li>
+                <li class="mt-4">
+                    <div class="mb-2">
+                        <p class="text-xl font-bold">Description of Services</p>
+                    </div>
+                    <p>HAAI.BIO is a link in bio developer that allows users to create personalized landing pages to share their important links and content. We provide a platform for users to manage and customize their link in bio pages.</p>
+                </li>
+                <li class="mt-4">
+                    <div class="mb-2">
+                        <p class="text-xl font-bold">User Obligations</p>
+                    </div>
+                    <ul class="list-disc ml-8">
+                        <li>You are responsible for the accuracy and legality of the information and links you provide on your HAAI.BIO page.</li>
+                        <li>You agree not to use HAAI.BIO for any illegal or unauthorized purposes.</li>
+                        <li>You will not engage in any activity that may disrupt the functioning of HAAI.BIO or interfere with other users' experience.</li>
+                        <li>You are solely responsible for maintaining the security of your account login credentials.</li>
+                    </ul>
+                </li>
+                <li class="mt-4">
+                    <div class="mb-2">
+                        <p class="text-xl font-bold">Privacy</p>
+                    </div>
+                    <ul class="list-disc ml-8">
+                        <li>We respect your privacy and handle your personal information in accordance with our Privacy Policy.</li>
+                        <li>By using HAAI.BIO, you consent to the collection, use, and disclosure of your personal information as described in our Privacy Policy.</li>
+                    </ul>
+                </li>
+                <li class="mt-4">
+                    <div class="mb-2">
+                        <p class="text-xl font-bold">Payment and Fees</p>
+                    </div>
+                    <ul class="list-disc ml-8">
+                        <li>You agree to pay the fees associated with the use of HAAI.BIO as indicated on our pricing page.</li>
+                        <li>All payments are processed through secure third-party payment gateways. We do not store your payment information on our servers.</li>
+                    </ul>
+                </li>
+                <li class="mt-4">
+                    <div class="mb-2">
+                        <p class="text-xl font-bold">Limitation of Liability</p>
+                    </div>
+                    <ul class="list-disc ml-8">
+                        <li>HAAI.BIO is provided on an "as is" and "as available" basis. We make no warranties or representations regarding the availability, reliability, or accuracy of the platform.</li>
+                        <li>We shall not be liable for any indirect, incidental, special, or consequential damages arising out of or in connection with the use of HAAI.BIO.</li>
+                    </ul>
+                </li>
+                <li class="mt-4">
+                    <div class="mb-2">
+                        <p class="text-xl font-bold">Termination</p>
+                    </div>
+                    <p>We reserve the right to suspend or terminate your access to HAAI.BIO at any time, without prior notice, if you violate these Terms and Conditions.</p>
+                </li>
+                <li class="mt-4">
+                    <div class="mb-2">
+                        <p class="text-xl font-bold">Amendments</p>
+                    </div>
+                    <p>We may modify these Terms and Conditions at any time without prior notice. The updated terms will be effective upon posting on HAAI.BIO. It is your responsibility to review the terms periodically.</p>
+                </li>
+                <li class="mt-4">
+                    <div class="mb-2">
+                        <p class="text-xl font-bold">Governing Law</p>
+                    </div>
+                    <p>These Terms and Conditions shall be governed by and construed in accordance with the laws of Indonesia. Any disputes arising out of or in connection with these terms shall be submitted to the exclusive jurisdiction of the courts of Indonesia.</p>
+                </li>
+            </ol>
+        </section>
+    </main>
+
+    <footer class="text-center py-20 lg:px-20 mt-20">
+        <div class="flex justify-center">
+            <p class="text-xs font-light text-gray-500">
+                Made with <img src="img/foot-1.png" alt="icon" width="16px" class="inline mx-1"> © 2023 ·&nbsp;<a href="mailto:help@haai.bio">help@haai.bio</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
